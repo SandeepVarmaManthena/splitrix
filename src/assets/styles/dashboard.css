@@ -1,0 +1,78 @@
+
+
+.top_section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+.name_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    background-color: var(--altBgColor);
+    color: var(--altColor);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.another_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.new_bill, .add_friends{
+    border: 2px solid #fff ;
+    border-radius: 4px;
+    background-color: var(--altBgColor);
+    color: var(--altColor);
+    padding: 20px 40px;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.new_bill:hover , .add_friends:hover{
+    background-color: var(--bgcolor);
+    color: var(--color);
+    cursor: pointer;
+
+}
+
+.amount_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.amount_owe, .amount_owes_u {
+    color: var(--altColor);
+    background-color: var(--altBgColor);
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 20px 40px;
+}
+
+p{
+    margin: 0;
+}
+
+.bottom_section{
+    background-color: var(--altBgColor);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
