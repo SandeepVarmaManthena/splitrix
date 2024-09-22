@@ -1,0 +1,43 @@
+
+.transaction_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color : var(--bgcolor); */
+    border: 2px solid #fff;
+    color: var(--altColor);
+    border-radius: 4px;
+    margin: 15px 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.date_of_transaction{
+    flex: 0.5;
+}
+
+.group_image{
+    flex: 1;
+}
+
+.group_name{
+    flex: 1;
+}
+
+.money_transaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex: 0;
+}
+
+.transaction_main:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transform: translateY(-2px);
+}

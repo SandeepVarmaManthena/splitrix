@@ -4,6 +4,7 @@ import Dashboard from '../components/Dashboard'
 import Recent from '../components/Recent'
 import Friends from '../components/Friends'
 import Groups from '../components/Groups'
+import Logo from '../assets/logo/logo-transparent-png.png'
 
 
 const HomePage = () => {
@@ -19,7 +20,7 @@ const HomePage = () => {
       <section className="home_wrapper">
         <div className="side_menu">
           <div className="logo_section">
-            <h2>SplitriX</h2>
+            <img src={Logo} alt="" style={{width : '160px', marginTop : '10px'}}/>
           </div>
           <div className="menu_items">
             <ul className='menu'>

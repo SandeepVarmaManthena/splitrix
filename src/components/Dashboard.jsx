@@ -1,3 +1,8 @@
+import Transaction from "./Transaction"
+import Logo from '../assets/logo/logo-transparent-png.png'
+
+
+
 
 const Dashboard = () => {
   return (
@@ -6,7 +11,7 @@ const Dashboard = () => {
         <div className="top_section">
           <div className="name_section">
             <div className="client_name">
-              <h3>Hello, Sandeep Varma</h3>
+              <h3><span style={{color: 'red'}}>Hello,</span> Sandeep Varma Mantena</h3>
             </div>
             <div className="another_section">
               <div className="new_bill">
@@ -30,10 +35,72 @@ const Dashboard = () => {
         </div>
         <div className="bottom_section">
           <div className="recent_transactions">
-            <h2 style={{color : 'red', fontWeight : 'bold', margin : '0px'}}>Recent Transactions</h2>
+            <h2 style={{color : 'red', fontWeight : 'bold', margin : '5px'}}>Recent Transactions</h2>
           </div>
           <div className="transactions_wrapper">
-            
+            <Transaction
+              date = {'Dec 25'}
+              image = {Logo}
+              group = {'Birthday'}
+              transaction = {'Received'}
+              amount = {'20'}
+            />
+            <Transaction
+              date = {'Dec 18'}
+              image = {Logo}
+              group = {'Party'}
+              transaction = {'Received'}
+              amount = {'50'}
+            />
+            <Transaction
+              date = {'Nov 20'}
+              image = {Logo}
+              group = {'Travel'}
+              transaction = {'Settled'}
+              amount = {'100'}
+            />
+            <Transaction
+              date = {'Dec 18'}
+              image = {Logo}
+              group = {'Party'}
+              transaction = {'Received'}
+              amount = {'50'}
+            />
+            <Transaction
+              date = {'Nov 20'}
+              image = {Logo}
+              group = {'Travel'}
+              transaction = {'Settled'}
+              amount = {'100'}
+            />
+            <Transaction
+              date = {'Dec 18'}
+              image = {Logo}
+              group = {'Party'}
+              transaction = {'Received'}
+              amount = {'50'}
+            />
+            <Transaction
+              date = {'Nov 20'}
+              image = {Logo}
+              group = {'Travel'}
+              transaction = {'Settled'}
+              amount = {'100'}
+            />
+            <Transaction
+              date = {'Dec 18'}
+              image = {Logo}
+              group = {'Party'}
+              transaction = {'Received'}
+              amount = {'50'}
+            />
+            <Transaction
+              date = {'Nov 20'}
+              image = {Logo}
+              group = {'Travel'}
+              transaction = {'Settled'}
+              amount = {'100'}
+            />
           </div>
         </div>
       </div>
