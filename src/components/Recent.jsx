@@ -1,10 +1,18 @@
-import React from 'react'
+import RecentTransactions from "./RecentTransactions"
 
 const Recent = () => {
   return (
-    <div>
-      <h1>Recent</h1>
-    </div>
+    <>
+        <RecentTransactions
+          month = {'December'}
+        />
+        <RecentTransactions
+          month = {'November'}
+        />
+        <RecentTransactions
+          month = {'October'}
+        />
+    </>
   )
 }
 

@@ -1,0 +1,22 @@
+
+.transactions_wrapper{
+    background-color: var(--altBgColor);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 0 8px 8px -4px rgba(0, 0, 0, .5);
+    height: fit-content;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.transaction_month{
+    padding: 0px 10px;
+}
+
+.transactions{
+    width: 100%;
+}
+

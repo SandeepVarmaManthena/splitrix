@@ -37,7 +37,7 @@ const Dashboard = () => {
           <div className="recent_transactions">
             <h2 style={{color : 'red', fontWeight : 'bold', margin : '5px'}}>Recent Transactions</h2>
           </div>
-          <div className="transactions_wrapper">
+          <div className="transaction_wrapper">
             <Transaction
               date = {'Dec 25'}
               image = {Logo}
