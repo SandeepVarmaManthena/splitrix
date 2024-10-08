@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import './App.css'
 import HomePage from "./pages/HomePage";
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
 

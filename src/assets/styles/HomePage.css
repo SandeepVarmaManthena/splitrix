@@ -2,7 +2,7 @@
 @import url('./transaction.css');
 @import url('./recent.css');
 @import url('./friends.css');
-
+@import url('./groups.css');
 
 
 :root{
@@ -18,6 +18,7 @@
     flex-direction: row;
     background-color: var(--bgcolor);
     width: 100%;
+    height: 100vh;
 }
 
 .side_menu{
@@ -29,6 +30,7 @@
     align-items: center;
     position: fixed;
     height: 100vh;
+    gap: 20px;
 }
 
 .menu{
@@ -36,8 +38,9 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 10px;
+    gap: 30px;
     width: 100%;
+    margin-top: 20px;
 }
 
 
@@ -45,12 +48,13 @@
     /* color: var(--altColor); */
     display: flex;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 12px 24px;
     transition: all .2s;
 }
 
 a{
     color: var(--altColor)!important;
+    text-decoration: none!important;
 }
 
 .menu .menu_item a:hover{
@@ -69,8 +73,8 @@ a{
 .content{
     background-color: var(--bgcolor);
     padding: 10px;
-    margin-left: 180px;
+    margin-left: 220px;
     width: 100%;
     position: relative;
-    height: 100vh;
+    height: 0;
 }

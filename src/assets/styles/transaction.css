@@ -2,35 +2,36 @@
 .transaction_main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     /* background-color : var(--bgcolor); */
     border: 2px solid #fff;
     color: var(--altColor);
     border-radius: 4px;
     margin: 15px 10px;
-    padding: 5px 10px;
+    padding: 10px 20px;
     font-weight: bold;
     transition: all .2s;
+    gap: 30px;
 }
 
 .date_of_transaction{
-    flex: 0.5;
+    flex: auto;
 }
 
 .group_image{
-    flex: 1;
+    flex: auto;
 }
 
 .group_name{
-    flex: 1;
+    flex: auto;
 }
 
 .money_transaction{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     gap: 10px;
     flex: 0;
 }

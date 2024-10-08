@@ -11,7 +11,7 @@ const Dashboard = () => {
         <div className="top_section">
           <div className="name_section">
             <div className="client_name">
-              <h3><span style={{color: 'red'}}>Hello,</span> Sandeep Varma Mantena</h3>
+              <h4><span style={{color: 'red'}}>Hello,</span> Sandeep Varma Mantena</h4>
             </div>
             <div className="another_section">
               <div className="new_bill">
@@ -35,7 +35,7 @@ const Dashboard = () => {
         </div>
         <div className="bottom_section">
           <div className="recent_transactions">
-            <h2 style={{color : 'red', fontWeight : 'bold', margin : '5px'}}>Recent Transactions</h2>
+            <h3 style={{color : 'red', fontWeight : 'bold', margin : '5px'}}>Recent Transactions</h3>
           </div>
           <div className="transaction_wrapper">
             <Transaction
